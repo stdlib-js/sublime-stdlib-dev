@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Awk",
+		"EditorConfig",
+		"Fortran",
+		"Git",
+		"Julia",
+		"LSP",
+		"LSP-typescript",
+		"MarkdownEditing",
+		"Pretty JSON",
+		"ProjectManager",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-eslint",
+		"SublimeLinter-json",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pydocstyle",
+		"SublimeLinter-pylint",
+		"SublimeLinter-shellcheck",
+		"SublimeLinter-stylelint",
+		"UnicodeMath",
+	],
+}
