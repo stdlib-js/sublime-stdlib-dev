@@ -1,0 +1,34 @@
+{
+    "color_scheme": "Packages/MonokaiC/themes/ME-MonokaiC.tmTheme",
+    "draw_centered": false,
+    "extensions": [
+        "md"
+    ],
+    "line_numbers": true,
+    "mde.match_header_hashes": false,
+    "mde.list_indent_auto_switch_bullet": true,
+    "mde.list_indent_bullets": ["-", "-", "-"],
+    "mde.auto_increment_ordered_list_number": true,
+    "mde.keep_centered": false,
+    "mde.lint": {
+        "disable": [
+            "md013"
+        ],
+        "md003": "atx",
+        "md004": "-",
+        "md007": 0,
+        "md013": 0,
+        "md026": ".,;:!?",
+        "md029": "any",
+        "md030": {
+            "ul_single": 2,
+            "ol_single": 2,
+            "ul_multi": 2,
+            "ol_multi": 2,
+        },
+    },
+    "rulers": [
+        80
+    ],
+    "wrap_width": "auto",
+}
