@@ -1,0 +1,88 @@
+{
+	"auto_complete": false,
+	"auto_complete_delay": 1000,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_use_index": false,
+	"auto_complete_use_history": false,
+	"auto_complete_with_fields": true,
+	"auto_complete_include_snippets": true,
+
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.svg",
+		"*.wasm",
+		"*.asm.js",
+		"*.node",
+		"reports/**",
+		"deps/build/**",
+		"build/**"
+	],
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": false,
+	"preview_on_click": true,
+	"rulers":
+	[
+		80,
+		72,
+		50
+	],
+	"scroll_past_end": true,
+	"show_definitions": false,
+	"spell_check": true,
+	"theme": "Default.sublime-theme",
+	"inactive_sheet_dimming": false,
+	"word_wrap": true,
+	"mde.auto_fold_link.enabled": false,
+	"wrap_width": 0,
+	"WrapPlus.wrap_width": 80,
+	"wrapPlus.break_long_words": true,
+	"WrapPlus.break_on_hyphens": true,
+	"WrapPlus.include_line_endings": true,
+}
