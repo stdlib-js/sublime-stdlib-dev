@@ -1,0 +1,124 @@
+// SublimeLinter Settings - User
+{
+    "debug": false,
+    "delay": 1.0,
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+    "kill_old_processes": true,
+    "lint_mode": "background",
+
+	"linters": {
+		"annotations": {
+            "disable": false,
+            "args": [],
+            "errors": [
+                "FIXME",
+                "HACK"
+            ],
+            "excludes": [],
+            "warnings": [
+                "NOTE",
+                "OPTIMIZE",
+                "TODO",
+                "WARNING"
+            ]
+        },
+        "csslint": {
+            "disable": false,
+            "args": [],
+            "errors": "",
+            "excludes": [],
+            "ignore": "",
+            "warnings": ""
+        },
+         "eslint": {
+            "disable": false,
+            "args": [
+                "--ignore-path",
+                "{{STDLIB_PATH}}/stdlib/etc/eslint/.eslintignore",
+                "--config",
+                "{{STDLIB_PATH}}/stdlib/.eslintrc.js",
+                "--report-unused-disable-directives"
+            ],
+            "excludes": [],
+            "executable": "{{STDLIB_PATH}}/stdlib/node_modules/.bin/eslint",
+            "env": {
+                "PATH":"/usr/local/bin/",
+                "NODE_PATH": "{{STDLIB_PATH}}/stdlib/lib/node_modules"
+            },
+            "lint_mode": "load_save"
+        },
+        "gfortranfixedform": {
+            "disable": false,
+            "args": [],
+            "excludes": []
+        },
+        "gfortranmodern": {
+            "disable": false,
+            "args": [],
+            "excludes": []
+        },
+        "json": {
+            "disable": false,
+            "args": [],
+            "excludes": [],
+            "strict": true
+        },
+        "pep8": {
+            "disable": false,
+            "args": [],
+            "excludes": [],
+            "ignore": "",
+            "max-line-length": null,
+            "select": ""
+        },
+        "pydocstyle": {
+            "disable": false,
+            "add-ignore": "",
+            "add-select": "",
+            "args": [],
+            "config": "",
+            "convention": "",
+            "excludes": [],
+            "ignore": "",
+            "ignore-decorators": "",
+            "select": ""
+        }
+	},
+    "no_column_highlights_line": false,
+    "paths": {
+        "osx": [
+            "/usr/local/bin/"
+        ]
+    },
+    "show_marks_in_minimap": true,
+    "styles": [
+        {
+            "mark_style": "none",
+            "priority": 1,
+            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "none",
+            "priority": 1,
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+    ],
+    "syntax_map": {
+        "html (django)": "html",
+        "html (rails)": "html",
+        "html 5": "html",
+        "javascript (babel)": "javascript",
+        "magicpython": "python",
+        "php": "html",
+        "python django": "python",
+        "pythonimproved": "python"
+    }
+}
