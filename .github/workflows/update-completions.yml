@@ -1,0 +1,19 @@
+name: Update Completions
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *' # Run at midnight on January 1st each year
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run regeneration script 1
+      run: node sublime_completions.js
+
+    - name: Run regeneration script 2
+      run: node license_header_snippets.js
