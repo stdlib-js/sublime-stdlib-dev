@@ -18,8 +18,6 @@
 * limitations under the License.
 */
 
-/* eslint-disable node/shebang */
-
 'use strict';
 
 // MODULES //
@@ -128,6 +126,11 @@ var LANGS = {
 		'trigger': 'stdlib.license',
 		'scope': 'source.ts',
 		'desc': 'TypeScript license header'
+	},
+	'wat': {
+		'trigger': 'stdlib.license',
+		'scope': 'source.wat',
+		'desc': 'WebAssembly text format license header'
 	},
 	'yml': {
 		'trigger': 'stdlib.license',

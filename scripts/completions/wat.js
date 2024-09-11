@@ -26,7 +26,7 @@ var currentYear = require( '@stdlib/time/current-year' );
 var licenseHeader = require( '@stdlib/_tools/licenses/header' );
 
 
-// MAIN //
+// VARIABLES //
 
 // SPDX license identifier:
 var spdx = 'Apache-2.0';
@@ -38,17 +38,17 @@ var opts = {
 };
 
 // License header:
-var license = licenseHeader( spdx, 'awk', opts );
+var license = licenseHeader( spdx, 'wat', opts );
 
 // Configurations for each completion:
 var completions = [
 	{
-		'name': 'awk',
-		'scope': 'source.awk',
+		'name': 'wat',
+		'scope': 'source.wat',
 		'completions': [
 			{
 				'trigger': 'stdlib.stub',
-				'contents': '#!/usr/bin/env awk -f\n'+license+'\n'
+				'contents': license+'\n'
 			}
 		]
 	}
