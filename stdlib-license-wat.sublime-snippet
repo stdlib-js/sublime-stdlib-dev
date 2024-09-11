@@ -20,7 +20,7 @@
     <tabTrigger>stdlib.license</tabTrigger>
 
     <!-- Scope the tab trigger will be active in -->
-    <scope>source.wat</scope>
+    <scope>source.wast</scope>
 
     <!-- Description to show in the menu -->
     <description>WebAssembly text format license header</description>

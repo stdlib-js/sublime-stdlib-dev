@@ -129,7 +129,7 @@ var LANGS = {
 	},
 	'wat': {
 		'trigger': 'stdlib.license',
-		'scope': 'source.wat',
+		'scope': 'source.wast',
 		'desc': 'WebAssembly text format license header'
 	},
 	'yml': {
