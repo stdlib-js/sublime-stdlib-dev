@@ -43,8 +43,8 @@ var license = licenseHeader( spdx, 'wat', opts );
 // Configurations for each completion:
 var completions = [
 	{
-		'name': 'wat',
-		'scope': 'source.wat',
+		'name': 'wast',
+		'scope': 'source.wast',
 		'completions': [
 			{
 				'trigger': 'stdlib.stub',
